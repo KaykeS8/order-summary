@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2? family = Outfit: wght @ 300; 400; 600 & display = swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul-claro: #E0E8FF;
+    --azul-claro2: #3829E0;
+    --azul-muito-claro: #F5F7FF;
+    --azul-dessaturado: #7280A7;
+    --azul-escuro: #4466BB;
+    --azul-escuro2: #1f356b;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--azul-claro);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* d8jhxp */
+
+.order {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    max-width: 350px;
+    border-radius: 20px;
+    background-color: var(--azul-muito-claro);
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.123);
+}
+
+.order img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.order-title {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 40px auto 20px auto;
+    color: var(--azul-escuro2);
+    font-weight: bolder;
+}
+
+
+.order p {
+    font-size: 0.75rem;
+    color: var(--azul-dessaturado);
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto 20px auto;
+    line-height: 1.4;
+}
+
+
+.order-planos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edf0ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 230px;
+    margin-bottom: 25px;
+}
+
+.order-planos img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.order-planos a {
+    color:   #1E1FCD;
+    font-weight: bold;
+    font-size: .75rem;
+}
+
+.order-preco {
+    display: flex;
+    align-items: center;
+}
+
+.order-preco p {
+    margin: 0;
+    display: block;
+}
+
+.p-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.p-flex span {
+    color: var(--azul-escuro2);
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.order-compra {
+    background-color:  #1E1FCD;
+    color: var(--azul-claro);
+    padding: 10px;
+    width: 250px;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+    text-align: center;
+    font-size: .75rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 13px  #1e1ecd8f;
+}
+
+
+.order-cancel {
+    text-align: center;
+    font-size: .75rem;
+    color:var(--azul-dessaturado);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.attribution {
+    text-align: center;
+}
